@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
-import { Header } from './components/Header';
-import { InputForm, UserInput } from './components/InputForm';
-import { OutputDisplay } from './components/OutputDisplay';
+import { Header } from './Header';
+import { InputForm, UserInput } from './InputForm';
+import { OutputDisplay } from './OutputDisplay';
 import { generateProfessionText, generateProfessionImage, generateCoatOfArmsImage } from './services/geminiService';
 
 export interface GeneratedContent {
