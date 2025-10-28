@@ -1,9 +1,8 @@
 {
-  "name": "kronikář-profesí",
+  "name": "kronikar-profesi",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
-  {
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,9 +10,6 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.3.0"
-  }
-}
-
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
